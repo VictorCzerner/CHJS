@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+@font-face{
+    font-family: "Milky Vintage";
+    src: url(fonts/MilkyVintage-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #171F1C, #2C3C37, #425951);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    
+    
+}
+h1{
+    font-family: "limelight", sans-serif ;
+    color: #CC7C38;
+
+}
+p{
+
+    color: #f5eddf;
+    font: italic lighter 1.2em Arial;
+
+    text-indent: 30px;
+
+}
+h2{
+    font-family: 'Milky Vintage';
+    color: #F2DDB6;
+    font-size: 3em;
+    font-weight: lighter;
+
+    text-align: center;
+}
+h2#Green{
+    color:#171F1C;
+}

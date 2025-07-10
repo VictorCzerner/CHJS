@@ -1,0 +1,114 @@
+@charset "URF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+:root{
+    --cor0:#10454F;
+    --cor1: #506266;
+    --cor2: #818274;
+    --cor3: #A3AB78;
+    --cor4: #BDE038;
+    --cor5: #6a7e83;
+    --cor6: #404d50;
+
+    --fonte: "Roboto Slab", Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header{
+    background-color: var(--cor1);
+
+    padding: 10px;
+    border-bottom: 1px solid var(--cor0);
+}
+header>nav{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    display: inline-block;
+    height: 100%;
+    
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    margin: 1px;
+}
+#botao{
+    font-family: var(--fonte);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    margin: 2px;
+    border: 2px solid var(--cor0);
+    background-color: var(--cor1);
+    color: black;
+    text-decoration: none;
+    
+}
+
+#botao:hover {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
+    background-color: var(--cor3);
+    border: 2px solid var(--cor4);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+main{
+
+    padding: 10px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    border:1px solid #404d5027;
+}
+main>h1{
+    font-family: var(--fonte);
+    display: block;
+    border-bottom: 1px solid var(--cor0);
+    
+}
+#trending{
+
+}
+#Trending>img{
+    border: 1px solid var(--cor0);
+    border-radius: 3px;
+    margin: 2.5px;
+    width: 170px;
+    height: 250px;
+}
+#Trending>img:hover{
+    border: 3px solid var(--cor4);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
+    border-radius: 3px;
+
+}
+div.video{
+    background-color:var(--cor3);
+    margin: 30px -10px 0px -50px;
+    padding: 20px;
+    padding-bottom:59%;
+    border-radius: 5px;
+    position: relative;
+}
+div.video>iframe{
+    
+    position: absolute;
+    top: 5%;
+    left: 3.85%;
+    width: 92%;
+    height: 90%;
+    border-radius: 5px;
+}

@@ -77,7 +77,7 @@ main{
 }
 #inicio{
 
-    height: 500px;
+    height: 280px;
      background-image: 
     linear-gradient(to right, var(--cor5) 0%, rgba(13, 13, 13, 0) 7%),
     linear-gradient(to bottom, var(--cor5) 0%, rgba(13, 13, 13, 0) 7%),
@@ -90,7 +90,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 
-    padding-bottom: 250px;
+    padding-bottom: 390px;
 
 
     border-radius: 20px;
@@ -102,12 +102,12 @@ main{
     font-family: var(--fonte);
     font-size: 2.4em;
     color: white;
-    max-width: 550px;
+    max-width: 600px;
     margin: auto;
     text-align: center;
     display: block;
     text-shadow:  2px 2px 1px rgba(0, 0, 0, 0.342);
-    padding-top: 555px;
+    padding-top: 600px;
     
 
     
@@ -118,9 +118,6 @@ main>h2{
     display: block;
     border-bottom: 1px solid var(--cor0);
     
-}
-#trending{
-
 }
 #Trending>img{
     border: 1px solid var(--cor0);
@@ -151,4 +148,56 @@ div.video>iframe{
     width: 92%;
     height: 90%;
     border-radius: 5px;
+}
+section.str{
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--cor0);
+    margin-bottom: 15px;
+
+}
+section.str>a>img{
+    height: 100px;
+    width: 100px;
+    
+}
+section.str>div{
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 0.8;
+}
+section.str>div>a{
+    color: white;
+    text-shadow:  2px 2px 1px rgba(0, 0, 0, 0.342);
+    text-decoration: none;
+    font-family: var(--fonte);
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 0;
+    position: relative;
+    top: -10px; 
+
+}
+section.str>div>a:hover{
+    color: var(--cor3);
+    text-decoration: none;
+    font-family: var(--fonte);
+    
+}
+section.str>div>h4{
+    color: black;
+    text-decoration: none;
+    font-family: var(--fonte);
+    position: relative;
+    top: -10px; /* sobe o bloco */
+
+
+}
+section.str>div>p{
+    color: black;
+    text-decoration: none;
+    font-family: var(--fonte);
+    position: relative;
+    top: -10px;  
+    margin-bottom: 0px;
+
 }

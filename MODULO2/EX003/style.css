@@ -19,7 +19,8 @@
 html, body {
   height: 100vh;
   margin: 0;
-  background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+  background-color: var(--cor5);
+ 
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -60,20 +61,59 @@ header>nav{
 #botao:hover {
     box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
     background-color: var(--cor3);
+    
     border: 2px solid var(--cor4);
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
 }
 main{
-
     padding: 10px;
     margin: auto;
     min-width: 320px;
-    max-width: 1000px;
-    border:1px solid #404d5027;
+    max-width: 1200px;
+    border: 1px solid #5062661c;;
+
 }
-main>h1{
+#inicio{
+
+    height: 500px;
+     background-image: 
+    linear-gradient(to right, var(--cor5) 0%, rgba(13, 13, 13, 0) 7%),
+    linear-gradient(to bottom, var(--cor5) 0%, rgba(13, 13, 13, 0) 7%),
+    linear-gradient(to left, var(--cor5) 0%, rgba(13, 13, 13, 0) 7%),
+    linear-gradient(to top, var(--cor5) 10%, rgba(13, 13, 13, 0) 25%),
+    radial-gradient(circle at center center, transparent 75%, var(--cor5) 90%),
+    url('imgs/como-treinar-o-seu-dragao-1.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-bottom: 250px;
+
+
+    border-radius: 20px;
+    overflow: hidden;
+
+  
+}
+#inicio > h1{
+    font-family: var(--fonte);
+    font-size: 2.4em;
+    color: white;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    text-shadow:  2px 2px 1px rgba(0, 0, 0, 0.342);
+    padding-top: 555px;
+    
+
+    
+    
+}
+main>h2{
     font-family: var(--fonte);
     display: block;
     border-bottom: 1px solid var(--cor0);
